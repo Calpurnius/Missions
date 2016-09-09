@@ -1,0 +1,15 @@
+Step 1: Place the scripts folder in your mission directory.
+Step 2: add execVM "scripts\SPH_CustomArsenal.sqf"; to your init file. Anywhere will do!
+Step 3: ????
+Step 4: Profit
+
+
+
+Script Usage:
+
+in the init file of the crate/object you want to give the arsenal option put this:
+[this,[<teamleader1 variablename>,<teamleader2 variablename>,etc.]] call <ScriptVariableAssigned>;
+The scriptVariables are assigned Below. Don't change them unless you know what you are doing.
+
+
+Created by Jmaster[SHG] for Spearheadgaming

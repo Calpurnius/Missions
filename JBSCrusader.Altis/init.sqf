@@ -1,0 +1,1 @@
+execVM "SHG_arsenalSystem\scripts\SPH_CustomArsenal.sqf";

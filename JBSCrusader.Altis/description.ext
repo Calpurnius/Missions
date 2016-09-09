@@ -1,0 +1,48 @@
+
+
+class CfgSounds
+
+{
+
+	sounds[] = {Bitch_I_Operate,Top_Gun};
+
+	class Bitch_I_Operate
+
+	{
+
+		name = "Bitch_I_Operate";
+
+		sound[] = {"secret\Bitch_I_Operate.ogg", 1, 1};
+
+		titles[] = {};
+
+	};
+	class Top_Gun
+	{
+		name = "Top_Gun";
+		sound[] = {"secret\Top_Gun.ogg", 1, 1};
+		titles[] = {};
+	};
+	class Sabaton
+	{
+		name = "Sabaton";
+		sound[] = {"secret\Sabaton.ogg", 1, 1};
+		titles[] = {};
+	};
+};
+
+
+#define SAF_DEF
+    #include "sushi_scripts\core\init.cpp"
+    #include "sushi_scripts\breach\init.cpp"
+#undef SAF_DEF
+
+class CfgFunctions
+{
+    class SAF {
+        #define SAF_FNCS
+            #include "sushi_scripts\core\init.cpp"
+            #include "sushi_scripts\breach\init.cpp"
+        #undef SAF_FNCS
+    };
+};
